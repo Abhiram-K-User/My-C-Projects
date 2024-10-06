@@ -113,12 +113,11 @@ class snakes
         else if(i2>=100)
         cout<<"The player "<<player2<<" has won in "<<counter2<<" dice rolls"<<"\n";
         else
-        cout<<"Failsafe code"<<"\n";
+        cout<<"ERROR! WINNER NOT DETECTED!"<<"\n";
     }
 };
 int main(void)
 {
-    int sum=0;
     snakes ob1;
     ob1.initialize();
     ob1.print();
