@@ -68,7 +68,7 @@ class snakes
         //....
         while(board[i1]=='S')
         {
-        cout<<"Uh oh!"<<player1<<" got attacked by a snake!"<<"\n";
+        cout<<"Uh oh!"<<player1<<" was attacked by a snake!"<<"\n";
         i1=i1-9;
         cout<<"The player "<<player1<<" is at position "<<i1<<"\n";
         }
@@ -93,7 +93,7 @@ class snakes
         //...
         while(board[i2]=='S')
         {
-        cout<<"Uh oh! "<<player2<<" got attacked by a snake!"<<"\n";
+        cout<<"Uh oh! "<<player2<<" was attacked by a snake!"<<"\n";
         i2=i2-9;
         cout<<"The player "<<player2<<" is at position "<<i2<<"\n";
         }
