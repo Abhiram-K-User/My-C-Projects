@@ -73,7 +73,7 @@ class game
         }
         else
         {
-            cout<<"The word was"<<ini_word<<"\n";
+            cout<<"The word was "<<ini_word<<"\n";
             cout<<"Skill Issue"<<"\n";
         }
     }
